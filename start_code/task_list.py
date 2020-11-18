@@ -27,26 +27,26 @@ tasks = [
       #  print task("status"+key)
         
 
-#1 Print a list of uncompleted tasks
-# def uncompleted_tasks(tasks):
-#     incomplete_tasks=[]
-#     for task in tasks:
-#         if task["completed"] == False:
-#             incomplete_tasks.append(task)
-#     return incomplete_tasks
+1 Print a list of uncompleted tasks
+ def uncompleted_tasks(tasks):
+     incomplete_tasks=[]
+     for task in tasks:
+         if task["completed"] == False:
+             incomplete_tasks.append(task)
+     return incomplete_tasks
 
 # print (uncompleted_tasks(tasks))
 
 #2 Print a list of completed tasks
 
-# def completed_tasks(tasks):
-#     complete_tasks=[]
-#     for task in tasks:
-#         if task["completed"] == True:
-#             complete_tasks.append(task)
-#     return complete_tasks
+ def completed_tasks(tasks):
+     complete_tasks=[]
+     for task in tasks:
+         if task["completed"] == True:
+             complete_tasks.append(task)
+     return complete_tasks
 
-#print (completed_tasks(tasks))
+print (completed_tasks(tasks))
 
 #3 Print a list of all the task decriptions
 
@@ -55,9 +55,15 @@ def task_descriptions(task):
     for task in tasks:
         description_list.append(task)
     return description_list
-print (task_descriptions(task))
+print(task_descriptions(task))
+
+#4 Print a list of tasks where time taken is at least a given time
     
     
+
+
+
+
 
 # def uncompleted_tasks( tasks, uncompleted ):
 #       for tasks in list:
